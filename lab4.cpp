@@ -40,9 +40,9 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	double a0 = -3, a1 = 0, a2 = 7, a3 = 0, a4 = -3, a5 =1, a = 0.5, b = 2;
 	cout << "a0 = " << a0 << "\na1 = " << a1 << "\na2 = " << a2 << "\na3 = " << a3 << "\na4 = " << a4 << "\na5 = " << a5;
-	cout << "\nIíòåðâàë:\nÍèæíÿ ìåæà = "<<a << "\nÂåðõíÿ ìåæà = " << b << endl;
-	cout << "Ìåòîä ïîëîâèííîãî äiëåííÿ:\tx = " << Bisection(a0, a1, a2, a3, a4, a5, a, b) << endl;
-	cout << "Ìåòîä äîòè÷íèõ:\t\t\tx = " << Dot(a0, a1, a2, a3, a4, a5, b) << endl;
-	cout << "Ìåòîä õîðä:\t\t\tx = " << Horda(a0, a1, a2, a3, a4, a5, a, b) << endl;
+	cout << "\nIÃ­ÅˆÄºÄ‘Ã¢Å•Ã«:\nÃÄÄ‡Ã­Ë™ Ä›ÄºÄ‡Å• = "<<a << "\nÃ‚ÄºÄ‘Å‘Ã­Ë™ Ä›ÄºÄ‡Å• = " << b << endl;
+	cout << "ÄšÄºÅˆÃ®Ã¤ ÄÃ®Ã«Ã®Ã¢ÄÃ­Ã­Ã®ÄƒÃ® Ã¤iÃ«ÄºÃ­Ã­Ë™:\tx = " << Bisection(a0, a1, a2, a3, a4, a5, a, b) << endl;
+	cout << "ÄšÄºÅˆÃ®Ã¤ Ã¤Ã®ÅˆÄÃ·Ã­ÄÅ‘:\t\t\tx = " << Dot(a0, a1, a2, a3, a4, a5, b) << endl;
+	cout << "ÄšÄºÅˆÃ®Ã¤ Å‘Ã®Ä‘Ã¤:\t\t\tx = " << Horda(a0, a1, a2, a3, a4, a5, a, b) << endl;
 	return 0;
 }
