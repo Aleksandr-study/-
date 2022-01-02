@@ -60,7 +60,7 @@ double y_ar(double x)
 }
  
 double my_lagrange(double x, int n, double x_arr[], double y_arr[]){
-    //Ïóñòü òî÷êè îòñîğòèğîâàíû ïî âîçğàñòàíèş êîîğäèíàòû x
+    //ĞŸÑƒÑÑ‚ÑŒ Ñ‚Ğ¾Ñ‡ĞºĞ¸ Ğ¾Ñ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ñ‹ Ğ¿Ğ¾ Ğ²Ğ¾Ğ·Ñ€Ğ°ÑÑ‚Ğ°Ğ½Ğ¸Ñ ĞºĞ¾Ğ¾Ñ€Ğ´Ğ¸Ğ½Ğ°Ñ‚Ñ‹ x
     
     if (n > 5)
         return (x <= x_arr[n/2]) ? my_lagrange(x, (n + 1)/2, x_arr, y_arr) : 
@@ -102,7 +102,7 @@ public:
     }
 };
 
-//Ğåøåíèå ñèñòåìû óğàâíåíèé ñ òğåõäèàãîíàëüíîé ìàòğèöåé
+//Ğ ĞµÑˆĞµĞ½Ğ¸Ğµ ÑĞ¸ÑÑ‚ĞµĞ¼Ñ‹ ÑƒÑ€Ğ°Ğ²Ğ½ĞµĞ½Ğ¸Ğ¹ Ñ Ñ‚Ñ€ĞµÑ…Ğ´Ğ¸Ğ°Ğ³Ğ¾Ğ½Ğ°Ğ»ÑŒĞ½Ğ¾Ğ¹ Ğ¼Ğ°Ñ‚Ñ€Ğ¸Ñ†ĞµĞ¹
 void SolveTriDiag(double** TDM, double* F)
 {
 	double* alph = new double[n - 1];
@@ -126,7 +126,7 @@ void SolveTriDiag(double** TDM, double* F)
 	}
 }
 
-//Ïîñòğîåíèå òàáëèöû êîıôôèöèåíòîâ êóáè÷åñêîãî ñïëàéíà
+//ĞŸĞ¾ÑÑ‚Ñ€Ğ¾ĞµĞ½Ğ¸Ğµ Ñ‚Ğ°Ğ±Ğ»Ğ¸Ñ†Ñ‹ ĞºĞ¾ÑÑ„Ñ„Ğ¸Ñ†Ğ¸ĞµĞ½Ñ‚Ğ¾Ğ² ĞºÑƒĞ±Ğ¸Ñ‡ĞµÑĞºĞ¾Ğ³Ğ¾ ÑĞ¿Ğ»Ğ°Ğ¹Ğ½Ğ°
 int BuildSpline()
 {
 	double* a = new double[n - 1];
@@ -197,7 +197,7 @@ int BuildSpline()
 
 }
 
-//Ïîäñ÷åò çíà÷åíèÿ èíòåğïîëÿíòû â çàäàííîé òî÷êå
+//ĞŸĞ¾Ğ´ÑÑ‡ĞµÑ‚ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ñ Ğ¸Ğ½Ñ‚ĞµÑ€Ğ¿Ğ¾Ğ»ÑĞ½Ñ‚Ñ‹ Ğ² Ğ·Ğ°Ğ´Ğ°Ğ½Ğ½Ğ¾Ğ¹ Ñ‚Ğ¾Ñ‡ĞºĞµ
 double Interpolate(double z)
 {
 	//double result;
@@ -216,7 +216,7 @@ double Interpolate(double z)
 		return (z / 2 * cos(z * 2));
 	}
 }
-//Çàãğóçêà äàííûõ
+//Ğ—Ğ°Ğ³Ñ€ÑƒĞ·ĞºĞ° Ğ´Ğ°Ğ½Ğ½Ñ‹Ñ…
 int Load_Data(double* x_arr, double* y_arr)
 {
 	char FileName[20];

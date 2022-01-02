@@ -40,9 +40,9 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	double a0 = -3, a1 = 0, a2 = 7, a3 = 0, a4 = -3, a5 =1, a = 0.5, b = 2;
 	cout << "a0 = " << a0 << "\na1 = " << a1 << "\na2 = " << a2 << "\na3 = " << a3 << "\na4 = " << a4 << "\na5 = " << a5;
-	cout << "\nIíňĺđâŕë:\nÍčćí˙ ěĺćŕ = "<<a << "\nÂĺđőí˙ ěĺćŕ = " << b << endl;
-	cout << "Ěĺňîä ďîëîâčííîăî äiëĺíí˙:\tx = " << Bisection(a0, a1, a2, a3, a4, a5, a, b) << endl;
-	cout << "Ěĺňîä äîňč÷íčő:\t\t\tx = " << Dot(a0, a1, a2, a3, a4, a5, b) << endl;
-	cout << "Ěĺňîä őîđä:\t\t\tx = " << Horda(a0, a1, a2, a3, a4, a5, a, b) << endl;
+	cout << "\nIнтервал:\nНижня межа = "<<a << "\nВерхня межа = " << b << endl;
+	cout << "Метод половинного дiлення:\tx = " << Bisection(a0, a1, a2, a3, a4, a5, a, b) << endl;
+	cout << "Метод дотичних:\t\t\tx = " << Dot(a0, a1, a2, a3, a4, a5, b) << endl;
+	cout << "Метод хорд:\t\t\tx = " << Horda(a0, a1, a2, a3, a4, a5, a, b) << endl;
 	return 0;
 }
